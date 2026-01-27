@@ -8,7 +8,7 @@ dependencies {
 
     // other libs
     implementation("com.github.cryptomorin:XSeries:13.6.0") { isTransitive = false }
-    implementation("net.wesjd:anvilgui:1.10.10-SNAPSHOT")
+    implementation("net.wesjd:anvilgui:1.10.11-SNAPSHOT")
 }
 
 tasks.processResources {
