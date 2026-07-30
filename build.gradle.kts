@@ -19,7 +19,7 @@ allprojects {
         // database
         implementation("com.zaxxer:HikariCP:7.0.2")
         implementation("com.h2database:h2:2.4.240")
-        implementation("org.mariadb.jdbc:mariadb-java-client:3.5.8") { exclude("*") }
+        implementation("org.mariadb.jdbc:mariadb-java-client:3.5.10") { exclude("*") }
 
         // ohthers
         implementation(kotlin("reflect"))
